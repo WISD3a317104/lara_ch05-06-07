@@ -28,4 +28,4 @@ Route::controller('board','BoardController');
 Route::group(['namespace'=>'Cool'],function(){
     Route::get('cool', 'TestController@index');
 });
-
+Route::get('\board','BoardController@getIndex');
