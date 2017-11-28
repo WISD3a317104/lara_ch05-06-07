@@ -10,7 +10,7 @@
 <body>
     @include('partials.nav')
     <div class='container'>
-        @yield('container')
+        @yield('content')
     </div>
 </body>
 </html>

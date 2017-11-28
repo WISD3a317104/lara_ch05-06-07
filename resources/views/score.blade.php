@@ -30,4 +30,4 @@
 			</p>
 			@endif
 		</div>
-@stop
+	@endsection
